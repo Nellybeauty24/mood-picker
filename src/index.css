@@ -1,0 +1,125 @@
+
+/* .counter-container{
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.count-display{
+  font-size:10em;
+margin-top: 0;
+margin: 50px;
+}
+
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0px 5px;
+  background-color: pink;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.counter-button:hover{
+  background-color:lightpink; 
+} */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.mood-picker{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height:100vh;
+  width: 100vw;
+ border: 1px solid black;
+ background-color: #232B34;
+ color: white;
+}
+
+.mood-picker h2{
+   font-weight: 700;
+   font-size:40px ;
+
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+}
+
+.mood-picker input{
+  width: 600px;
+  height: 40px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding-left: 15px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+
+}
+.buttons{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.buttons button{
+  background-color:#93FB7E ;
+  width: 80px;
+  height: 70px;
+  font-size: 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
+
+.button2{
+  background-color: #ACA8A8 !important;
+}
+.button3{
+  background-color: #F77373 !important;
+}
+
+.button4{
+  background-color:#5993FF !important;
+}
+
+
+ @media ( max-width:600px){
+
+.buttons{
+  width: 250px;  
+}
+.buttons button{
+  width: 50px;
+ height: 50px;
+ font-size: 25px;
+}
+
+.mood-picker input{
+  width: 300px;
+  height: 40px;
+  
+
+}
+.mood-picker h2{
+  
+   font-size:25px ;
+
+}
+
+ }
+
+
